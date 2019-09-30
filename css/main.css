@@ -89,7 +89,6 @@ a:hover {
 }
 @media (min-width: 900px) {
   .info-item {
-      padding: 20px 0 ;
       margin: auto auto;
   }
 }
@@ -160,14 +159,13 @@ a:hover {
 }
 
 .slider {
-  display: flex;
-  overflow: hidden;
   position: relative;
 }
 
 .slider img {
   display: none;
   width: 100%;
+  height: auto;
 }
 
 .slider button {
